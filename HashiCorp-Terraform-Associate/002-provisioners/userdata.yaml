@@ -1,0 +1,6 @@
+#cloud-config
+packages:
+  - httpd # Apache server
+runcmd:
+  - systemctl start httpd # start apache server
+  - sudo systemctl enable httpd # enable the server to start-up at reboot
