@@ -83,7 +83,7 @@ resource "aws_security_group" "sg_my_server" {
 # Resource - "aws_key_pair" (used to control login access to EC2 instances)
 resource "aws_key_pair" "deployer" {
   key_name   = "terraform-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCqPf7oxnoW97qxWIxcypCAGyt1cLnsFRfGbCVFIXsVBplmu2MvW4g8UhBHl1xwiU3rGQiCsnfVUcfpQ06x3z/HzQvhiqCeqDdDdcOp8rUoYHtu2YT1n1oA6CgKBEv+b2ma6FELsl5xmqkuUiSTLxfoIVzhykP93S6ZBdCjFJWL1pqoQNMjRpuZpdYTNVw21LRaYkTnu9X964pll2oNmvuRJ32eymY80gSONX/UGY/2a60GWuvBV+5tVuSk2aLWM/gqWplfuH7V13p4zDGY0SbTTBOAJ3EgMk1bC+LAVCVbhgrxbl8f2xQSmEvrEDwdvUTjNpuKuKdR4v5yzhF6VoOybsCYfmiuxudkeOEDoTwErjGLbwqu7WPqhl0ao8RaTCdd0omQbKkc9N7JSqYxrNYJcREI1DzCUpbHmbHVcRDOJEVVnWbC8O3XhxbdEUVyKT3MMD1O2tyfI/mAkHbR16HNC2U6fNVT2NcP8NtFdW8/3CsWQ2XNjQoCUycbYu94k98= kunalverma@Kunals-MacBook-Air.local"
+  public_key = "YOUR-PUBLIC-KEY-HERE"
 }
 
 # Creating an aws ec2 instance:
