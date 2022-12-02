@@ -10,7 +10,7 @@ terraform {
 provider "google" {
   project     = "PROJECT_ID_HERE"
   region      = "us-west1"
-  credentials = "terraform-gcp-369813-948662349194.json"
+  credentials = "JSON-CREDENTIALS-FILE-HERE"
   zone = "us-west1-b"
 }
 
